@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #06060f;
+  --foreground: #e8e8f0;
+  --card: #0c0c1e;
+  --card-foreground: #e8e8f0;
+  --popover: #0c0c1e;
+  --popover-foreground: #e8e8f0;
+  --primary: #00ff88;
+  --primary-foreground: #06060f;
+  --secondary: #111827;
+  --secondary-foreground: #e8e8f0;
+  --muted: #111827;
+  --muted-foreground: #6b7280;
+  --accent: #00bfff;
+  --accent-foreground: #06060f;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: rgba(255, 255, 255, 0.08);
+  --input: rgba(255, 255, 255, 0.08);
+  --ring: #00ff88;
+  --chart-1: #00ff88;
+  --chart-2: #00bfff;
+  --chart-3: #ff00ff;
+  --chart-4: #ff6600;
+  --chart-5: #ffff00;
+  --sidebar: #06060f;
+  --sidebar-foreground: #e8e8f0;
+  --sidebar-primary: #00ff88;
+  --sidebar-primary-foreground: #06060f;
+  --sidebar-accent: #111827;
+  --sidebar-accent-foreground: #00ff88;
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --sidebar-ring: #00ff88;
+  --font-sans: "Geist", ui-sans-serif, sans-serif, system-ui;
+  --font-serif: "Noto Serif Georgian", ui-serif, serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --font-display: "Orbitron", var(--font-sans);
+  --radius: 0.5rem;
+
+  --glow-primary:
+    0 0 20px rgba(0, 255, 136, 0.4), 0 0 60px rgba(0, 255, 136, 0.15);
+  --glow-accent:
+    0 0 20px rgba(0, 191, 255, 0.4), 0 0 60px rgba(0, 191, 255, 0.15);
+  --glow-magenta:
+    0 0 20px rgba(255, 0, 255, 0.4), 0 0 60px rgba(255, 0, 255, 0.15);
+
+  --shadow-2xs: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
+  --shadow-xs: 0px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  --shadow-sm:
+    0px 2px 8px 0px rgba(0, 0, 0, 0.4), 0px 1px 2px -1px rgba(0, 0, 0, 0.4);
+  --shadow:
+    0px 3px 12px 0px rgba(0, 0, 0, 0.4), 0px 1px 3px -1px rgba(0, 0, 0, 0.4);
+  --shadow-md:
+    0px 4px 16px 0px rgba(0, 0, 0, 0.5), 0px 2px 4px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg:
+    0px 6px 24px 0px rgba(0, 0, 0, 0.5), 0px 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-xl:
+    0px 10px 32px 0px rgba(0, 0, 0, 0.6), 0px 8px 10px -1px rgba(0, 0, 0, 0.4);
+  --shadow-2xl: 0px 16px 48px 0px rgba(0, 0, 0, 0.75);
+  --tracking-normal: -0.015em;
+  --spacing: 0.25rem;
+}
+
+body {
+  letter-spacing: var(--tracking-normal);
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow: hidden;
+}
